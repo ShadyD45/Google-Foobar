@@ -15,6 +15,6 @@ I have used both as per need and simplicity.
 - [Gearing Up For Destruction]
 
 ### Level 3
-- [The Grandest Staircase Of Them All]
+- [The Grandest Staircase Of Them All](https://github.com/ShadyD45/Google-Foobar/tree/master/Level%203/Grandest%20Staircase%20Of%20Them%20All)
 
 
