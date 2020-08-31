@@ -10,7 +10,7 @@ class Solution
     {
        // Your code here
        int iSum, iarrLen = iarrList.length;
-	   int[] iarrResult = {-1, -1};
+       int[] iarrResult = {-1, -1};
 	   
         for (int i = 0; i < iarrLen; i++)
         {
