@@ -9,7 +9,7 @@ Inside each level is a challenge folder with a problem file describing the chall
 - [Encrypt Message](https://github.com/ShadyD45/Google-Foobar/blob/master/Level%201/Main.java)
 
 ### Level 2
-- [Numbers Station Coded Messages]
+- [Numbers Station Coded Messages](https://github.com/ShadyD45/Google-Foobar/blob/master/Level%202/Coded%20Message/CodedMessages.java)
 - [Gearing Up For Destruction]
 
 ### Level 3
