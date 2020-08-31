@@ -6,7 +6,7 @@
 Inside each level is a challenge folder with a problem file describing the challenge and constraints, and my solution to the challenge.
 
 ### Level 1
-- [Encrypt Message](https://github.com/ShadyD45/Google-Foobar/tree/master/)
+- [Encrypt Message](https://github.com/ShadyD45/Google-Foobar/blob/master/Level%201/Main.java)
 
 ### Level 2
 - [Numbers Station Coded Messages]
