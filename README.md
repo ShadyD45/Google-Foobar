@@ -4,6 +4,9 @@
 
 There will be a solution file in which i will try to explain how i cam up with the solution
 
+To solve the challenge we can only use Java or Python.  
+I have used both as per need and simplicity.
+
 ### Level 1
 - [Decrypt Message](https://github.com/ShadyD45/Google-Foobar/blob/master/Level%201/Main.java)
 
