@@ -1,5 +1,5 @@
-import json
-import math
+
+
 
 def calculate_steps(n):
     # pad size
