@@ -4,11 +4,11 @@ class Solution
     {
         // Your code here
         int i, j = 25;
-        char[] sent = x.toCharArray();
+        char[] sentence = x.toCharArray();
         String decipheredStr = "";
         final String alphabets = "abcdefghijklmnopqrstuvwxyz";
         
-        for(char s : sent )
+        for(char s : sentence)
         {
             if(Character.isLowerCase(s))
             {
@@ -25,21 +25,23 @@ class Solution
     
     private static int getLetterPosition(char ch)
     {
-        final String alpha = "zyxwvutsrqponmlkjihgfedcba ";
+        final String alpha = "zyxwvutsrqponmlkjihgfedcba";
         int res = 0;
         for(int i=0;i<alpha.length();i++)
         {
             if(alpha.charAt(i) == ch)
             {
                 res = i;
-        		break;
-        	}
+        	break;
+            }
         }
         return res;
     }
 }
 
-public class foo1
+
+//Driver Class
+public class Main
 {
 	public static void main(String args[])
 	{
