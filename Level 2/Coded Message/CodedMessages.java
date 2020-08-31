@@ -23,7 +23,7 @@ class Solution
                 {
                 	iarrResult[0] = i;
                 	iarrResult[1] = j - 1;
-                    return iarrResult;
+                    	return iarrResult;
                 }
                 //iSum is bigger than given Key or index reached at end of array
                 if (iSum > iKey || j == iarrLen) 
