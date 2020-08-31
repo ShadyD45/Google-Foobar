@@ -1,46 +1,41 @@
+import java.util.HashMap;
 class Solution 
 {
+	private static HashMap<Character, Character> DecryptionMap = new HashMap<>();
+	private static final String alphabets = "abcdefghijklmnopqrstuvwxyz";
+    
     public static String solution(String x) 
     {
         // Your code here
         int i, j = 25;
         char[] sentence = x.toCharArray();
         String decipheredStr = "";
-        final String alphabets = "abcdefghijklmnopqrstuvwxyz";
+        
+        createMap();
         
         for(char s : sentence)
         {
-            if(Character.isLowerCase(s))
-            {
-                decipheredStr += alphabets.charAt(getLetterPosition(s) + 1);
-            }
-            else
-            {
-                decipheredStr += s;
-            }
+        	if(Character.isLowerCase(s))
+            	{
+                	decipheredStr += DecryptionMap.get(s);
+            	}
+            	else
+            	{
+                	decipheredStr += s;
+            	}
         }
-        
         return decipheredStr;
     }
     
-    private static int getLetterPosition(char ch)
+    private static void createMap()
     {
-        final String alpha = "zyxwvutsrqponmlkjihgfedcba";
-        int res = 0;
-        for(int i=0;i<alpha.length();i++)
-        {
-            if(alpha.charAt(i) == ch)
-            {
-                res = i;
-        	break;
-            }
-        }
-        return res;
+    	for(int i=0, j=25; i < 26 && j >= 0; j--,i++)
+    	{
+    		DecryptionMap.put(alphabets.charAt(i), alphabets.charAt(j));
+    	}
     }
 }
 
-
-//Driver Class
 public class Main
 {
 	public static void main(String args[])
