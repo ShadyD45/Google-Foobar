@@ -1,24 +1,22 @@
-import java.util.ArrayList;
 class Solution 
 {
     public static int solution(int start, int length)
     {
         //Your code goes here
-        int iChecksum = 0;
-        int n = length;
+        int iChecksum = 0;	// XOR of a number with 0 results the number itself
         int j = 0;
-        for(int i = 0; i <= n ; ++i)
+        for(int i = 0; i <= length ; ++i)
         {	
-            if(i != n)
+            if(i != length)
             {
-            	//Compute XOR for current worker
+            	//Compute XOR of current worker id with the checksum
             	iChecksum = iChecksum ^ start;
             	++start;
             }
             else
             { 
                 start += j;	//Skip the next "j" workers
-                n = n - 1;
+                length = length - 1;
                 i = -1;
                 ++j;
             }
