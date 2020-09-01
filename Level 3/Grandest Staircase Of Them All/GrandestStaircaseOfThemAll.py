@@ -1,6 +1,3 @@
-
-
-
 def calculate_steps(n):
     # pad size
     size = n + 1
@@ -21,4 +18,5 @@ def calculate_steps(n):
 def answer(n):
     return calculate_steps(n)
 
-    
+print(answer(5))
+
