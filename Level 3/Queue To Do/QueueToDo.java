@@ -5,6 +5,7 @@ class Solution
         //Your code goes here
         int iChecksum = 0;	// XOR of a number with 0 results the number itself
         int j = 0;
+	    
         for(int i = 0; i <= length ; ++i)
         {	
             if(i != length)
@@ -21,6 +22,7 @@ class Solution
                 ++j;
             }
         }
+	    
         return iChecksum;
     }
 }
