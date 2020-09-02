@@ -11,7 +11,7 @@ I have used both as per need and simplicity.
 - [Decrypt Message](https://github.com/ShadyD45/Google-Foobar/blob/master/Level%201/Main.java)
 
 ### Level 2
-- [Numbers Station Coded Messages](https://github.com/ShadyD45/Google-Foobar/blob/master/Level%202/Coded%20Message/CodedMessages.java)
+- [Numbers Station Coded Messages](https://github.com/ShadyD45/Google-Foobar/blob/master/Level%202/Numbers%20Station%20Coded%20Messages/NumbersStationCodedMessages.java)
 - [Gearing Up For Destruction]
 
 ### Level 3
