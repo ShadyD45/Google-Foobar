@@ -1,4 +1,4 @@
-// This Solution works too but fails some test cases mostly because of exceeding time limit when the input number is very big 
+// This Solution works but fails some test cases mostly because of exceeding time limit when the input number is very big 
 // As we have to mod and divide very large numbers these operation become very expensive in terms of time
 // The Python solution works and passed all test cases plus it was easy to implement than using BigInteger in Java
 
