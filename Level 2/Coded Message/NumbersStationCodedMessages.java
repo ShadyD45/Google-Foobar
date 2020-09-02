@@ -37,7 +37,8 @@ class Solution
     }
 }
 
-public class CodedMessages
+//Driver class with function main()
+public class NumbersStationCodedMessages
 {
 	public static void main(String args[])
 	{
