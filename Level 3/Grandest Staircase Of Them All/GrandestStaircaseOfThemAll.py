@@ -1,4 +1,4 @@
-def calculate_steps(n):
+def calculate_stairs(n):
     # pad size
     size = n + 1
 
@@ -16,7 +16,7 @@ def calculate_steps(n):
     return bricks[n][n] - 1
 
 def answer(n):
-    return calculate_steps(n)
+    return calculate_stairs(n)
 
 print(answer(5))
 
